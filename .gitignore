@@ -23,6 +23,10 @@ ENV/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+# Documents & reports
+*.docx
+*.doc
+
 # IDE & Editor settings
 .vscode/
 .idea/
