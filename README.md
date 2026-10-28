@@ -99,12 +99,3 @@ Các siêu tham số mặc định:
 * `spatio_windows`: `[1, 2, 3, 4, 5]`
 
 ---
-
-## 📈 Đánh giá mô hình
-
-Mô hình xuất ra các độ đo định lượng chuẩn cho bài toán phát hiện gian lận:
-* **F1-Score:** Đánh giá độ cân bằng giữa Precision và Recall trên lớp nhãn gian lận.
-* **ROC-AUC:** Diện tích dưới đường cong ROC đánh giá khả năng phân loại.
-* **Average Precision (PR-AUC):** Độ đo then chốt cho dữ liệu có độ lệch nhãn cao.
-
----
