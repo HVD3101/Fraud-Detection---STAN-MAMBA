@@ -1,4 +1,4 @@
-# 🛡️ STAN-Mamba for Financial Fraud Detection
+#  STAN-Mamba for Financial Fraud Detection
 
 Hệ thống phát hiện gian lận tài chính ứng dụng mô hình học sâu kết hợp giữa **Spatio-Temporal Attention Network (STAN)** và **Mamba (Selective State Space Model)** trên tập dữ liệu **S-FFSD (Synthetic Financial Fraud Dataset)**.
 
@@ -16,7 +16,7 @@ Dự án này đề xuất kiến trúc lai **STAN + Mamba**:
 
 ---
 
-## 🏗️ Kiến trúc mô hình
+##  Kiến trúc mô hình
 
 Mô hình trong [`stan.py`](stan.py) được xây dựng theo luồng tuần tự:
 ```
@@ -43,7 +43,7 @@ Input Data (Transactions)
 
 ---
 
-## 📂 Cấu trúc thư mục
+##  Cấu trúc thư mục
 
 ```text
 ├── data_engineering.py     # Hàm tính Entropy giao dịch và tạo ma trận đặc trưng 3D Không-Thời gian
@@ -113,5 +113,4 @@ Mô hình xuất ra các độ đo định lượng chuẩn cho bài toán phát
 
 ## 👨‍💻 Tác giả
 * **Họ và tên:** Hồ Văn Độ
-* **MSSV:** 2351010049
 * **Đề tài:** Nghiên cứu và ứng dụng Spatio-Temporal Attention kết hợp Mamba trong phát hiện gian lận tài chính.
