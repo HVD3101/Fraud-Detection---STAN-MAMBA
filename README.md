@@ -4,7 +4,7 @@ Hệ thống phát hiện gian lận tài chính ứng dụng mô hình học s�
 
 ---
 
-## 📖 Giới thiệu đề tài
+## Giới thiệu đề tài
 
 Phát hiện giao dịch gian lận trong hệ thống tài chính là một bài toán thách thức do dữ liệu có tính chất:
 - **Mất cân bằng nghiêm trọng:** Số lượng giao dịch gian lận chiếm tỷ lệ rất nhỏ so với giao dịch thông thường.
@@ -84,8 +84,6 @@ Tải tập dữ liệu `S-FFSD.csv` và đặt vào thư mục `data/`:
 └── data/
     └── S-FFSD.csv
 ```
-*(Lưu ý: Mã nguồn tự động ưu tiên nạp file tại `data/S-FFSD.csv`, nếu không tìm thấy sẽ thử đường dẫn fallback trên máy phát triển).*
-
 ### 4. Huấn luyện mô hình
 Chạy lệnh sau để bắt đầu quá trình trích xuất đặc trưng và huấn luyện:
 ```bash
@@ -110,7 +108,3 @@ Mô hình xuất ra các độ đo định lượng chuẩn cho bài toán phát
 * **Average Precision (PR-AUC):** Độ đo then chốt cho dữ liệu có độ lệch nhãn cao.
 
 ---
-
-## 👨‍💻 Tác giả
-* **Họ và tên:** Hồ Văn Độ
-* **Đề tài:** Nghiên cứu và ứng dụng Spatio-Temporal Attention kết hợp Mamba trong phát hiện gian lận tài chính.
